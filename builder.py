@@ -61,10 +61,10 @@ builder = SkyLarkBuilder()
 director = Director(builder)
 director.construct_car()
 car = director.get_car()
-print car
+print(car)
 
 hondaBuilder = HondaBuilder()
 director = Director(hondaBuilder)
 director.construct_car()
 car = director.get_car()
-print car
+print(car)

@@ -36,4 +36,4 @@ prototype = Prototype()
 prototype.register_object('skylark', c)
 
 c1 = prototype.clone('skylark')
-print c1
+print(c1)

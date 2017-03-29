@@ -16,6 +16,6 @@ class Singleton(Borg):
         return str(self._shared_state)
 
 x = Singleton(Http="Hyper Text Transfer Protocol")
-print x
+print(x)
 y = Singleton(SNMP="Simple Network Management Protocol")
-print y
+print(y)

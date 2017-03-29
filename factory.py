@@ -28,7 +28,7 @@ def get_pet(pet="dog"):
 
 
 d = get_pet()
-print d.speak()
+print(d.speak())
 
 c = get_pet("cat")
-print c.speak()
+print(c.speak())

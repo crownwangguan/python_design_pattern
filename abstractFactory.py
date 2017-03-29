@@ -47,9 +47,9 @@ class PetStore:
         pet = self._pet_factory.get_pet()
         pet_food = self._pet_factory.get_food()
 
-        print "Our pet is '{}'".format(pet)
-        print "Our pet says hello by '{}'".format(pet.speak())
-        print "Its food is '{}'".format(pet_food)
+        print("Our pet is '{}'".format(pet))
+        print("Our pet says hello by '{}'".format(pet.speak()))
+        print("Its food is '{}'".format(pet_food))
 
 
 dogFactory = DogFactory()
